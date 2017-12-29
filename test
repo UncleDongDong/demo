@@ -1,0 +1,29 @@
+ /**My introduction
+ * @author SONG
+ * @version 0.1.0
+ * @date 2017/12/29
+ */
+ pulic class person{
+     private String name;
+     private String home;
+     private Integer age;
+     private String address;
+     
+     public person(String name,String home,int age,String address){
+         this.name = name;
+         this.home = home;
+         this.age = age;
+         this.address = address;
+     }
+     
+     public void helloWorld(){
+       System.out.println("欢迎光临！");
+     }
+     
+     public static void main(String[] args){
+         person person = new person("宋晓冬","nanjing",25,"江苏省南京市");
+         person.helloWorld();
+     }
+     
+     
+ }
